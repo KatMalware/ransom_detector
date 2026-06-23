@@ -1,0 +1,25 @@
+# Python environment and caches
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Project generated decoy and logs directories
+honeypot/
+.honeypot_backup/
+logs/
+test_sandbox/
+.test_sandbox_backup/
+
+# Unused dashboard, frontend, and old simulation files (keeping repo clean for CLI only)
+dashboard.py
+templates/
+static/
+simulate_attack.py
+colab_training_code.py
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store
